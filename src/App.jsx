@@ -1,13 +1,19 @@
 
 import './App.css'
+import Banner from './Component/Banner/Banner'
+import Header from './Component/Header/Header'
+
+
+
 
 function App() {
   
 
   return (
     <>
+     <Header></Header>
+     <Banner></Banner>
      
-      <h1 className='text-4xl'>Vite + React</h1>
      
     </>
   )
