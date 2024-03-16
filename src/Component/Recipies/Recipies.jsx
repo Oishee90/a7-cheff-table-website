@@ -32,7 +32,7 @@ const Recipies = ({recipe,  handleCart}) => {
       <div className='flex '><img src={fireImage} alt="" /> <p className='ml-2'>{recipe.calories}</p></div>
      </div>
      <div className='text-left mt-4'>
-     <button onClick={()=> handleCart(recipe)} className="btn text-xl font-lexend  btn-success hover:bg-green-700 btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full">Wait to Cook</button>
+     <button onClick={()=> handleCart(recipe)} className="btn text-xl font-lexend  btn-success hover:bg-green-700 btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full">Want TO Cook</button>
      </div>
     </div>
     </div>

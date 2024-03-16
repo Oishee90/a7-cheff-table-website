@@ -90,7 +90,7 @@ cart.map((item, index) => (
     
     
       <tr key={index} className="hover">
-        <th>{item.recipe_id}</th>
+        <th>{index+1}</th>
         <td>{item.recipe_name}</td>
         <td>{item.preparing_time}</td>
         <td>{item.calories}</td>
