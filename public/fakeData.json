@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_name": "Pasta",
+      "image": "https://i.ibb.co/QvngMgR/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg",
+      "short_description": "Classic Italian pasta dish with marinara sauce and parmesan cheese.",
+      "ingredients": ["300g spaghetti", "500g marinara sauce", "100g grated parmesan cheese", "Fresh basil leaves for garnish"],
+      "preparing_time": "25 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_id": "2",
+      "recipe_name": "Biryani",
+      "image": "https://i.ibb.co/Yk3hg2k/homemade-meal-cooked-poultry-fresh-vegetable-celebration-generated-by-ai.jpg",
+      "short_description": "Fragrant and flavorful Indian rice dish with tender chicken and aromatic spices.",
+      "ingredients": ["600g basmati rice", "800g chicken thighs", "200g yogurt", "Assorted spices (cinnamon, cardamom, cloves, etc.)"],
+      "preparing_time": "45 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_id": "3",
+      "recipe_name": "Sandwich",
+      "image": "https://i.ibb.co/XyDDRMp/club-sandwich-with-crispy-bread-wooden-board.jpg",
+      "short_description": "Classic sandwich with layers of turkey, lettuce, tomato, and cheese between toasted bread slices.",
+      "ingredients": ["8 slices whole wheat bread", "200g turkey slices", "Lettuce leaves", "Tomato slices", "Cheddar cheese slices"],
+      "preparing_time": "15 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_id": "4",
+      "recipe_name": "Burger",
+      "image": "https://i.ibb.co/g3z580t/craft-beef-burger-french-fries-wooden-table-melting-chesses-isolated-black-background-ai-generative.jpg",
+      "short_description": "Juicy beef patty with melted cheese, lettuce, tomato, and special sauce in a toasted bun.",
+      "ingredients": ["200g ground beef", "4 burger buns", "100g cheddar cheese", "Lettuce", "Tomato", "Special sauce"],
+      "preparing_time": "20 min",
+      "calories": "500 calories"
+    },
+    {
+      "recipe_id": "5",
+      "recipe_name": "Grilled Bbq Chicken",
+      "image": "https://i.ibb.co/t4bth23/fresh-grill-bbq-chicken.jpg",
+      "short_description": "Delicious grilled Chicken fillets seasoned with lemon, garlic, and herbs.",
+      "ingredients": ["4 Chicken fillets", "2 lemons", "4 cloves garlic", "Fresh herbs (rosemary, thyme)", "Olive oil"],
+      "preparing_time": "30 min",
+      "calories": "380 calories"
+    },
+    {
+      "recipe_id": "6",
+      "recipe_name": "Fried Chicken",
+      "image": "https://i.ibb.co/PGB1cYK/crispy-fried-chicken-plate-with-salad-carrot.jpg",
+      "short_description": "Crispy and golden fried chicken pieces seasoned with herbs and spices.",
+      "ingredients": ["8 chicken drumsticks", "2 cups buttermilk", "2 cups all-purpose flour", "Assorted spices (paprika, garlic powder, onion powder, etc.)"],
+      "preparing_time": "40 min",
+      "calories": "400 calories"
+    }
+  ]
+  
