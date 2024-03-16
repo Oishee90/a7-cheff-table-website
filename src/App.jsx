@@ -5,6 +5,8 @@ import Header from './Component/Header/Header'
 
 import { useEffect, useState } from 'react'
 import Recipies from './Component/Recipies/Recipies'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -29,7 +31,7 @@ function App() {
     setCart([...cart,p])
    }
    else{
-   alert("already in card")
+   toast("Recipe is already in the cart")
    }
   }
   const handleDelete=(id)=> {
@@ -92,7 +94,8 @@ cart.map((item, index) => (
         <td>{item.recipe_name}</td>
         <td>{item.preparing_time}</td>
         <td>{item.calories}</td>
-        <td><button onClick={()=>handleDelete(item.recipe_id)} className='btn hover:bg-green-900 bg-green-500 border-none text-black rounded-full'>Preparing</button></td>
+        <td><button onClick={()=>handleDelete(item.recipe_id)} className='btn hover:bg-green-900 bg-green-500 border-none text-black rounded-full'>Preparing</button>
+        <ToastContainer /></td>
       </tr>
       ))
    
