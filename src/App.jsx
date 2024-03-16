@@ -46,10 +46,10 @@ function App() {
      <Header></Header>
      <Banner></Banner>
 
-     <div className="main-container flex justify-around h-full gap-3 ">
+     <div className="main-container flex flex-col lg:flex-row md:flex-row justify-around h-full gap-3 ">
       {/* card */}
       <div>
-      <div className="card-container w-full grid grid-cols-2 gap-2 ">
+      <div className="card-container w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 ">
       
       {
           reciepies.map(rp => <Recipies 
