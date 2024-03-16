@@ -46,10 +46,10 @@ function App() {
      <Header></Header>
      <Banner></Banner>
 
-     <div className="main-container flex flex-col lg:flex-row md:flex-row justify-around h-full gap-3 ">
+     <div className="main-container flex flex-col lg:flex-row md:flex-col justify-around h-full gap-3 ">
       {/* card */}
       <div>
-      <div className="card-container w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 ">
+      <div className="card-container w-full  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 ">
       
       {
           reciepies.map(rp => <Recipies 
@@ -68,7 +68,7 @@ function App() {
 {/* cart */}
 
 
-       <div className=" w-auto h-auto card  cart-container shadow-xl border border-gray-400  rounded-3xl">
+       <div className=" w-auto h-auto card  cart-container shadow-xl border  border-green-200 bg-white  rounded-3xl">
   <div className="p-8 ">
     <h2 className=" text-center text-2xl font-lexend font-bold">Want To Cook :{cart.length}</h2>
     <div className='border h-0 border-gray-400 mt-4 '></div>
@@ -89,12 +89,12 @@ cart.map((item, index) => (
       
     
     
-      <tr key={index} className="hover">
+      <tr key={index} className="hover text-[#282828B3]">
         <th>{index+1}</th>
         <td>{item.recipe_name}</td>
         <td>{item.preparing_time}</td>
         <td>{item.calories}</td>
-        <td><button onClick={()=>handleDelete(item.recipe_id)} className='btn hover:bg-green-900 bg-green-500 border-none text-black rounded-full'>Preparing</button>
+        <td><button onClick={()=>handleDelete(item.recipe_id)} className='btn hover:bg-green-700 bg-green-500 border-none text-black rounded-full'>Preparing</button>
         <ToastContainer /></td>
       </tr>
       ))
@@ -109,20 +109,20 @@ cart.map((item, index) => (
 <h2 className=" text-center text-xl font-lexend font-bold">Currently Cooking:{deletedItems.length}</h2>
 <div className='border h-0 border-gray-400 mt-4 '></div>
 <div className="overflow-x-auto">
-  <table className="table">
+  <table className="table font-lexend">
     {/* head */}
     <thead>
-      <tr>
+      <tr className='text-[#282828B3]'>
         <th></th>
-        <th>Name</th>
+        <th >Name</th>
         <th>Time</th>
         <th>Calories</th>
       </tr>
     </thead>
     <tbody>
     {deletedItems.map((item, index) => (
-          <tr key={index} className="hover">
-          <th>{item.recipe_id}</th>
+          <tr key={index} className="hover text-[#282828B3]">
+          <th>{index+1}</th>
           <td>{item.recipe_name}</td>
           <td>{item.preparing_time}</td>
           <td>{item.calories}</td>
@@ -133,13 +133,13 @@ cart.map((item, index) => (
        <tr>
   <th colSpan="4">Total Preparing Time :</th>
   
-  <td >{totalPreparingTime}miniute</td>
+  <td className='text-base font-semibold text-[#242020b3]'>{totalPreparingTime} miniute</td>
 </tr>
 
 <tr>
   <th colSpan="3">Total Calories :</th>
   <td></td>
-  <td colSpan="">{totalCalories} Calories</td>
+  <td className='text-base font-semibold text-[#242020b3]'>{totalCalories} Calories</td>
 </tr>
     
       </tbody>

@@ -8,7 +8,7 @@ const Recipies = ({recipe,  handleCart}) => {
    
     return (
      
-        <div className="card w-auto  bg-base-100 shadow-xl border border-gray-500 ">
+        <div className="card w-auto  border-green-200 shadow-xl border bg-base-100 ">
   <figure className="">
     <img className='w-full rounded-3xl' src={recipe.image} alt="Shoes" />
   </figure>
@@ -32,7 +32,7 @@ const Recipies = ({recipe,  handleCart}) => {
       <div className='flex '><img src={fireImage} alt="" /> <p className='ml-2'>{recipe.calories}</p></div>
      </div>
      <div className='text-left mt-4'>
-     <button onClick={()=> handleCart(recipe)} className="btn text-xl font-lexend  btn-success hover:bg-green-700 btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full">Want TO Cook</button>
+     <button onClick={()=> handleCart(recipe)} className="btn text-xl font-lexend  btn-success hover:bg-green-700 btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full">Want To Cook</button>
      </div>
     </div>
     </div>
